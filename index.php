@@ -14,7 +14,6 @@ Gestire il tutto con due file diversi.
 Il primo file (index.php) dovrà permettere all’utente di inserire i dati (tramite un form) e inviare la richiesta al server.
  -->
   
-
 <div class="container">
   <div class="row">
     <div class="col-12 d-flex justify-content-center mt-5">
