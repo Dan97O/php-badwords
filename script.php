@@ -1,18 +1,11 @@
-<!-- 
-  Il secondo file (nome a piacere) riceverà la richiesta ed eseguirà queste operazioni:
+<?php
+/* Il secondo file (nome a piacere) riceverà la richiesta ed eseguirà queste operazioni:
 stampare a schermo il paragrafo e la sua lunghezza
 stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare.
- -->
-
- <?php
+*/
 $name = trim($_GET["name"]);
 $password = trim($_GET["password"]);
 $censored = str_replace($password, '***', $name);
-//echo $name;
-//echo strlen($name);
-//echo $password;
-//echo $censored;
-//echo strlen($password);
 ?> 
 
 <!DOCTYPE html>
