@@ -3,3 +3,13 @@
 stampare a schermo il paragrafo e la sua lunghezza
 stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare.
  -->
+
+ <?php
+$name = $_GET["name"];
+$password = $_POST["censored"];
+echo $name;
+echo strlen($name);
+
+echo $password;
+echo strlen($password);
+?>

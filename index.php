@@ -17,7 +17,7 @@ Il primo file (index.php) dovrà permettere all’utente di inserire i dati (tra
 <div class="container">
   <div class="row">
     <div class="col-12 d-flex justify-content-center mt-5">
-      <form action="script.php" method="get">
+      <form action="script.php" method="GET">
         <div class="mb-3">
           <label for="name">Paragrafo</label>
           <input type="text" name="name" id="name" class="form-control" placeholder="Inserisci il paragrafo...">
