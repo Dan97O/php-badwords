@@ -6,10 +6,13 @@ stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
 
  <?php
 $name = $_GET["name"];
-$password = $_POST["censored"];
+$password = $_GET["censored"];
+$censored = str_replace($password,"***",$password);
 echo $name;
 echo strlen($name);
 
-echo $password;
-echo strlen($password);
-?>
+//echo $password;
+echo $censored;
+//echo strlen($password);
+
+?> 
