@@ -23,8 +23,8 @@ Il primo file (index.php) dovrà permettere all’utente di inserire i dati (tra
           <input type="text" name="name" id="name" class="form-control" placeholder="Inserisci il paragrafo...">
         </div>
         <div class="mb-3">
-          <label for="censored" class="form-label">Parola da censurare</label>
-          <input type="text" name="censored" id="censored" class="form-control" placeholder="Inserisci la parola...">
+          <label for="password" class="form-label">Parola da censurare</label>
+          <input type="text" name="password" id="password" class="form-control" placeholder="Inserisci la parola...">
         </div>
         <div class="mb-3">
           <button type="submit" class="btn btn-primary">Invia</button>

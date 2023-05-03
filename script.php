@@ -5,9 +5,9 @@ stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
  -->
 
  <?php
-$name = $_GET["name"];
-$password = $_GET["censored"];
-$censored = str_replace($password,"***",$password);
+$name = trim($_GET["name"]);
+$password = trim($_GET["password"]);
+$censored = str_replace($password, "***" , $password);
 //echo $name;
 //echo strlen($name);
 //echo $password;
@@ -36,15 +36,10 @@ $censored = str_replace($password,"***",$password);
       <?php echo $name;?> n: <?php echo strlen($name); ?>
       </p>
     </div>
-    <div>
-      <p>
-      <?php echo $name;?> n: <?php echo strlen($name); ?>
-      </p>
-    </div>
     <h4>Password:</h4>
     <div>
       <p>
-      <?php echo $censored;?> 
+      <?php echo $censored;?> n: <?php echo strlen($censored); ?>
       </p>
     </div>
     </div>
